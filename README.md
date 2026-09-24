@@ -36,7 +36,13 @@ Alur pewarisannya dibikin serealistis mungkin berdasarkan logika di dunia nyata:
 2. Buat PHP: Sesuai keringanan aturan tugas, nambahin 1 data barunya langsung di-hardcode aja di kodenya tanpa input terminal.
 - Tabel Akhir: Data yang baru masuk tadi digabungin ke dalam list, terus program bakal nyetak lagi tabel keseluruhan yang isinya udah update jadi 6 objek.
 
-**5. Dokumentasi Bukti Eksekusi**
+**5. Error Handling & Validation**
+Biar programnya lebih aman dan nggak gampang crash pas di-test atau diinput aneh-aneh, ada beberapa validasi sederhana yang diterapin:
+- Validasi Unik (Cek Duplikat NIK/ID): Program bakal ngecek NIK atau ID Pegawai yang dimasukin. Kalau ternyata ID-nya udah kepakai sama data yang ada sebelumnya, sistem bakal nolak dan nyuruh user masukin ID lain yang unik.
+- Validasi Tipe Data Angka: Pas disuruh masukin tahun_masuk, program bakal mastiin kalau inputannya itu beneran angka. Kalau user malah ngetik huruf, program bakal nangkep error-nya (exception catching) biar nggak force close, dan minta input ulang.
+- Mencegah Input Kosong: Ada validasi biar user nggak bisa sengaja atau nggak sengaja cuma pencet Enter (input kosong) di field-field penting kayak nama atau NIK.
+
+**6. Dokumentasi Bukti Eksekusi**
 1. Python:
 <img width="691" height="507" alt="output_python" src="https://github.com/user-attachments/assets/8c7e3786-7630-4fc3-8221-42d8034edc04" />
 
