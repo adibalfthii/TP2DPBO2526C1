@@ -54,6 +54,7 @@ Biar programnya lebih aman dan nggak gampang crash pas di-test atau diinput aneh
 
 4. PHP:
 <img width="719" height="429" alt="output_php" src="https://github.com/user-attachments/assets/c319c429-17c3-4ebd-9c62-096be256b915" />
+<img width="959" height="443" alt="output_php_2" src="https://github.com/user-attachments/assets/40f34e68-af5a-4b0f-8023-f6956645d37f" />
 
 
 
