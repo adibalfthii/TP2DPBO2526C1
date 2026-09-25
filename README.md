@@ -1,4 +1,3 @@
-<img width="951" height="535" alt="output_php_1" src="https://github.com/user-attachments/assets/ee25776c-c96d-45bf-a30e-488aded07edb" />
 # Tugas Praktikum 2 DPBO 2026 - Kelas C1
 **- Sistem Manajemen Staf UMKM Kopi Specialty (Multilevel Inheritance)**
 Nama: Muh. Adib Al-Fathi
